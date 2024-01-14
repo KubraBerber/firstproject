@@ -1,11 +1,48 @@
 <html>
   <head>
     <title>Ana Sayfa</title>
+    <style>
+      .container { /* Etiketler için grup oluşturur */
+      max-width: 1200px; /* maksimum genişlik */
+      margin: 0 auto;  /* üst ve alttan 0 boşluk, sol sağdan otomatik ortalar  */
+      
+      }
+      header {
+        background-color: lightblue;
+        padding: 1rem;
+      }
+
+      section {
+        background-color: lightyellow;
+        padding: 1rem;
+      }
+
+      footer {
+        background-color: lightblue;
+        padding: 1rem;
+      }
+
+
+    </style>
   </head>
 
   <body>
+  <header class="container">
+    <nav>
+      <a href="index.html">Ana Sayfa</a>
+      <a href="hakkimda.html">Hakkımda</a>
+    </nav>
+  </header>
+
+  <section class="container">
     <h1>Ana Sayfa</h1>
-    <p>Ana sayfaya hoş geldiniz...</p>
     <a href="hakkimda.html">Hakkımda</a>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, maiores culpa doloribus inventore fuga sequi laboriosam possimus assumenda. Quo enim tempora commodi dolores distinctio. Vel distinctio ut ex explicabo asperiores.</p>
+  </section>
+
+  <footer class="container">
+    <p>Tasarım ve Kodlama: Kübra Berber</p>
+  </footer>
   </body>
 </html>
